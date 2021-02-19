@@ -1,13 +1,12 @@
 import React from "react";
 import CollectionItem from "../collection-item/collection-item";
-import CollcetionItem from "../collection-item/collection-item";
 import "./collection-preview.scss";
 
 
 const CollcetionPreview = ({title, items}) => {
 
   return(
-    <div className='collection-preview'>
+    <div className='collection-preview'> 
       <h1 className='title'>
         {title.toUpperCase()}
       </h1>
