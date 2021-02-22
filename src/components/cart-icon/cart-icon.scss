@@ -10,6 +10,12 @@
   .shopping-icon {
     width: 36px;
     height: 36px;
+    &:hover{
+      color: rgb(255, 49, 49);
+    }
+    &.red {
+      color: red;
+    }
   }
 
   .item-count {
