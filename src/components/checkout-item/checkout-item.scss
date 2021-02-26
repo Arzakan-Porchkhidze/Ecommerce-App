@@ -23,13 +23,26 @@
   }
 
   .quantity {
-    padding-left: 20px;
+    display: flex;
+    .increase,
+    .decrease {
+      cursor: pointer;
+      padding: 0;
+    }
+    .value {
+      margin: 0px 10px;
+      font-size: 24px;
+    }
   }
 
   .remove-button {
+    width: auto;
     display: flex;
     justify-content: center;
     cursor: pointer;
-    color: red;
+    font-size: 24px;
+    &:hover {
+      color: red;
+    }
   }
 }
